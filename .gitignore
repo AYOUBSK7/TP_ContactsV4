@@ -1,0 +1,16 @@
+# Fichiers générés par Gradle / Android Studio
+build/
+.gradle/
+.kotlin/
+/.idea/
+*.iml
+.DS_Store
+*.apk
+*.aab
+
+# Contient le chemin du SDK et la clé Google Maps : jamais sur GitHub
+/local.properties
+secrets.properties
+
+# Fiche de révision personnelle (pas pour le prof)
+Revision_*.pdf

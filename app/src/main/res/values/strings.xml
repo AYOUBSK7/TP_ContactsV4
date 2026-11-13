@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Contacts V4</string>
+
+    <!-- Titres des écrans -->
+    <string name="titre_liste">Mes contacts</string>
+    <string name="titre_nouveau">Nouveau contact</string>
+    <string name="titre_detail">Détail du contact</string>
+    <string name="titre_carte">Position du contact</string>
+    <string name="titre_parametres">Paramètres</string>
+
+    <!-- Liste -->
+    <string name="hint_filtre">Rechercher (nom, prénom, téléphone)</string>
+    <string name="nom_complet">%1$s %2$s</string>
+    <string name="nom_complet_favori">★ %1$s %2$s</string>
+    <string name="liste_vide">Aucun contact</string>
+    <string name="desc_ajouter">Ajouter un contact</string>
+    <string name="desc_appeler">Appeler ce contact</string>
+    <string name="desc_photo">Photo du contact</string>
+
+    <!-- Détail -->
+    <string name="label_nom">Nom *</string>
+    <string name="label_prenom">Prénom *</string>
+    <string name="label_telephone">Téléphone *</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_latitude">Latitude</string>
+    <string name="label_longitude">Longitude</string>
+    <string name="label_favori">Favori</string>
+    <string name="btn_appeler">Appeler</string>
+    <string name="btn_email">E-mail</string>
+    <string name="btn_galerie">Galerie</string>
+    <string name="btn_camera">Caméra</string>
+    <string name="btn_carte">Voir sur la carte</string>
+    <string name="btn_enregistrer">Enregistrer</string>
+    <string name="btn_annuler">Annuler</string>
+    <string name="btn_supprimer">Supprimer</string>
+
+    <!-- Suppression -->
+    <string name="titre_supprimer">Supprimer le contact</string>
+    <string name="msg_confirmer_suppression">Voulez-vous vraiment supprimer %1$s %2$s ?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+
+    <!-- Messages -->
+    <string name="msg_champ_obligatoire">Champ obligatoire</string>
+    <string name="msg_email_invalide">Adresse e-mail invalide</string>
+    <string name="msg_nombre_invalide">Nombre invalide</string>
+    <string name="msg_latitude_hors_limites">La latitude doit être entre -90 et 90</string>
+    <string name="msg_longitude_hors_limites">La longitude doit être entre -180 et 180</string>
+    <string name="msg_gps_incomplet">Remplissez la latitude ET la longitude, ou aucune des deux</string>
+    <string name="msg_contact_enregistre">Contact enregistré</string>
+    <string name="msg_contact_supprime">Contact supprimé</string>
+    <string name="msg_echec_enregistrement">Échec de l\'enregistrement</string>
+    <string name="msg_echec_suppression">Échec de la suppression</string>
+    <string name="msg_contact_introuvable">Contact introuvable</string>
+    <string name="msg_telephone_vide">Ce contact n\'a pas de numéro</string>
+    <string name="msg_aucune_application">Aucune application compatible</string>
+    <string name="msg_photo_annulee">Aucune photo sélectionnée</string>
+    <string name="msg_photo_erreur">Impossible de charger la photo</string>
+    <string name="msg_camera_refusee">Permission caméra refusée</string>
+    <string name="msg_camera_indisponible">Aucune caméra disponible</string>
+    <string name="msg_enregistrer_avant_carte">Enregistrez d\'abord le contact</string>
+    <string name="msg_pas_de_position">%1$s %2$s n\'a pas de position GPS enregistrée.\nAjoutez une latitude et une longitude dans le détail du contact.</string>
+
+    <!-- Paramètres -->
+    <string name="pref_categorie_affichage">Affichage</string>
+    <string name="pref_categorie_liste">Liste des contacts</string>
+    <string name="pref_taille">Taille de police</string>
+    <string name="pref_couleur">Couleur préférée du texte</string>
+    <string name="pref_appel">Activer l\'appel depuis la liste</string>
+    <string name="pref_appel_oui">Oui : un bouton Appeler sur chaque ligne</string>
+    <string name="pref_appel_non">Non</string>
+    <string name="pref_tri">Ordre de tri</string>
+</resources>
